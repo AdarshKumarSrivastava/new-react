@@ -24,8 +24,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+ 
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -34,6 +34,30 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+
+
+
+
+div.pp{
+  display: flex;
+}
+div.cards{
+  border-radius: 20px;
+  background-color: maroon;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+
+}
+
+
+
 
 button {
   border-radius: 8px;
